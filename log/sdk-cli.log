@@ -1,0 +1,1061 @@
+2026-03-31T05:55:36.900Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:deviceName":"Pixel 9","appium:platformVersion":"15.0","appium:automationName":"UiAutomator2","appium:app":"bs://69a85b3f21a32e1aacc8a8f5e44530d4ec9d4f90","appium:autoGrantPermissions":true,"wdioService":"9.26.1"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-31T05:55:36.901Z CLI info     Should start debug utility: undefined
+2026-03-31T05:55:36.901Z CLI info [testhub:module]  [ritika_rTsQJ4]   [66e79050-4173-4622-8cce-466c33882445]  Starting testhub from 93962:0
+2026-03-31T05:55:36.902Z CLI info  [ritika_rTsQJ4]   [66e79050-4173-4622-8cce-466c33882445]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-31T05:55:36.902Z CLI info  [ritika_rTsQJ4]   [66e79050-4173-4622-8cce-466c33882445]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-31T05:55:37.265Z CLI info  [ritika_rTsQJ4]   [66e79050-4173-4622-8cce-466c33882445]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-31T05:55:37.266Z CLI info  [ritika_rTsQJ4]   [66e79050-4173-4622-8cce-466c33882445]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-31T05:55:37.266Z CLI info  [ritika_rTsQJ4]   [66e79050-4173-4622-8cce-466c33882445]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-03-31T05:55:38.637Z CLI info [testhub:module]  [ritika_rTsQJ4]   [66e79050-4173-4622-8cce-466c33882445]  startBuild: response=cth7c68famexrd4dabbabo0r5duve2byhw0537bi
+2026-03-31T05:55:38.639Z CLI info  [ritika_rTsQJ4]  [cth7c68famexrd4dabbabo0r5duve2byhw0537bi]  [66e79050-4173-4622-8cce-466c33882445]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T05:55:39.477Z CLI info  [ritika_rTsQJ4]  [cth7c68famexrd4dabbabo0r5duve2byhw0537bi]  [66e79050-4173-4622-8cce-466c33882445]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-31T05:55:39.480Z CLI info  [ritika_rTsQJ4]  [cth7c68famexrd4dabbabo0r5duve2byhw0537bi]  [66e79050-4173-4622-8cce-466c33882445]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-31T05:55:40.504Z CLI info [testhub:module]  [ritika_rTsQJ4]  [cth7c68famexrd4dabbabo0r5duve2byhw0537bi]  [66e79050-4173-4622-8cce-466c33882445]  stopBuild: cth7c68famexrd4dabbabo0r5duve2byhw0537bi request={"finished_at":"2026-03-31T05:55:39.477Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-31T05:55:40.505Z CLI info  [ritika_rTsQJ4]  [cth7c68famexrd4dabbabo0r5duve2byhw0537bi]  [66e79050-4173-4622-8cce-466c33882445]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T05:55:40.881Z CLI info [TEST REPORTING AND ANALYTICS:module]  [ritika_rTsQJ4]  [cth7c68famexrd4dabbabo0r5duve2byhw0537bi]  [66e79050-4173-4622-8cce-466c33882445]  Visit https://automation.browserstack.com/builds/cth7c68famexrd4dabbabo0r5duve2byhw0537bi to view build report, insights, and many more debugging information all at one place!
+2026-03-31T05:55:40.887Z CLI info [main]  [ritika_rTsQJ4]  [cth7c68famexrd4dabbabo0r5duve2byhw0537bi]  [66e79050-4173-4622-8cce-466c33882445]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-03-31T05:59:36.615Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:deviceName":"Pixel 9","appium:platformVersion":"15.0","appium:automationName":"UiAutomator2","appium:app":"bs://69a85b3f21a32e1aacc8a8f5e44530d4ec9d4f90","appium:autoGrantPermissions":true,"wdioService":"9.26.1"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-31T05:59:36.615Z CLI info     Should start debug utility: undefined
+2026-03-31T05:59:36.616Z CLI info [testhub:module]  [ritika_rTsQJ4]   [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  Starting testhub from 94423:0
+2026-03-31T05:59:36.616Z CLI info  [ritika_rTsQJ4]   [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-31T05:59:36.617Z CLI info  [ritika_rTsQJ4]   [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-31T05:59:36.873Z CLI info  [ritika_rTsQJ4]   [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-31T05:59:36.874Z CLI info  [ritika_rTsQJ4]   [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-31T05:59:36.874Z CLI info  [ritika_rTsQJ4]   [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-03-31T05:59:37.587Z CLI info [testhub:module]  [ritika_rTsQJ4]   [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  startBuild: response=hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg
+2026-03-31T05:59:37.589Z CLI info  [ritika_rTsQJ4]  [hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg]  [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T05:59:39.600Z CLI info [sdk:service]  [ritika_rTsQJ4]  [hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg]  [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  Driver initialized as primary driver: platformIndex=0
+2026-03-31T05:59:46.774Z CLI info  [ritika_rTsQJ4]  [hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg]  [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-31T05:59:46.776Z CLI info  [ritika_rTsQJ4]  [hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg]  [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-31T05:59:47.844Z CLI info [testhub:module]  [ritika_rTsQJ4]  [hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg]  [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  stopBuild: hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg request={"finished_at":"2026-03-31T05:59:46.774Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-31T05:59:47.845Z CLI info  [ritika_rTsQJ4]  [hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg]  [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T05:59:48.172Z CLI info [TEST REPORTING AND ANALYTICS:module]  [ritika_rTsQJ4]  [hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg]  [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  Visit https://automation.browserstack.com/builds/hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg to view build report, insights, and many more debugging information all at one place!
+2026-03-31T05:59:48.178Z CLI info [main]  [ritika_rTsQJ4]  [hjvfwacehx7qhumxmmmwln5gnaofducyommmdksg]  [ee1f5ca1-b0c0-4893-a24f-608ed3fe6de5]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-03-31T06:01:04.529Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:platformVersion":"12.0","appium:automationName":"UiAutomator2","appium:app":"bs://69a85b3f21a32e1aacc8a8f5e44530d4ec9d4f90","appium:autoGrantPermissions":true,"wdioService":"9.26.1"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-31T06:01:04.530Z CLI info     Should start debug utility: undefined
+2026-03-31T06:01:04.530Z CLI info [testhub:module]  [ritika_rTsQJ4]   [7579a664-9819-4814-a4de-a6822b3cafa3]  Starting testhub from 94749:0
+2026-03-31T06:01:04.531Z CLI info  [ritika_rTsQJ4]   [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-31T06:01:04.531Z CLI info  [ritika_rTsQJ4]   [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-31T06:01:04.820Z CLI info  [ritika_rTsQJ4]   [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-31T06:01:04.821Z CLI info  [ritika_rTsQJ4]   [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-31T06:01:04.821Z CLI info  [ritika_rTsQJ4]   [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-03-31T06:01:05.602Z CLI info [testhub:module]  [ritika_rTsQJ4]   [7579a664-9819-4814-a4de-a6822b3cafa3]  startBuild: response=rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj
+2026-03-31T06:01:05.604Z CLI info  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T06:01:06.616Z CLI info [sdk:service]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  Driver initialized as primary driver: platformIndex=0
+2026-03-31T06:01:30.483Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '12c34955-480c-4893-943e-097665f8ac32',
+    integrations: { browserstack: [Object] }
+  }
+} to 94749:0
+2026-03-31T06:01:30.484Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '12c34955-480c-4893-943e-097665f8ac32',
+    name: 'Delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+    },
+    identifier: 'Delete the note',
+    scope: 'Notes - Delete the note',
+    scopes: [ 'Notes' ],
+    file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    vc_filepath: '',
+    location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-31T06:01:30.474Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 94749:0
+2026-03-31T06:01:31.619Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '12c34955-480c-4893-943e-097665f8ac32',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: 'e2fa55a6f2b147b3ee1e0bc909cb4d0daaaebffb',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'IN-GH3FQF9W77.local' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'Android',
+              chromedriverPorts: [ [ 18144, 18154 ] ],
+              automationName: 'UiAutomator2',
+              systemPort: 8204,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: 'R5CT32RBEPF',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true,
+              autoGrantPermissions: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'IN-GH3FQF9W77.local' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: 'R5CT32RBEPF',
+            chromedriverPorts: [ [ 18144, 18154 ] ],
+            automationName: 'UiAutomator2',
+            systemPort: 8204,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: 'R5CT32RBEPF',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            autoGrantPermissions: true,
+            deviceUDID: 'R5CT32RBEPF',
+            deviceApiLevel: 31,
+            platformVersion: '12',
+            deviceScreenSize: '1080x2316',
+            deviceScreenDensity: 450,
+            deviceModel: 'SM-S908E',
+            deviceManufacturer: 'samsung',
+            pixelRatio: 2.8125,
+            statBarHeight: 75,
+            viewportRect: { left: 0, top: 75, width: 1080, height: 2031 }
+          },
+          platform: 'Android',
+          platform_version: '12',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '12c34955-480c-4893-943e-097665f8ac32',
+      name: 'Delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+      },
+      identifier: 'Delete the note',
+      scope: 'Notes - Delete the note',
+      scopes: [ 'Notes' ],
+      file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      vc_filepath: '',
+      location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-31T06:01:30.474Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 94749:0
+2026-03-31T06:01:31.621Z CLI info  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-31T06:01:37.929Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"12c34955-480c-4893-943e-097665f8ac32","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Notes - Delete the note","test_name":"Delete the note","test_code":"async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}","test_location":"test/specs/Real_Android_App/Android_Real_App_Delete.js","test_scope":"Notes - Delete the note","test_scopes":["Notes"],"test_started_at":"2026-03-31T06:01:30.474Z","automate_session_name":"Notes - Delete the note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-31T06:01:37.922Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-31T06:01:37.932Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '12c34955-480c-4893-943e-097665f8ac32',
+    name: 'Delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+    },
+    identifier: 'Delete the note',
+    scope: 'Notes - Delete the note',
+    scopes: [ 'Notes' ],
+    file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    vc_filepath: '',
+    location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    result: 'passed',
+    duration_in_ms: 7448,
+    started_at: '2026-03-31T06:01:30.474Z',
+    finished_at: '2026-03-31T06:01:37.922Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 94749:0
+2026-03-31T06:01:39.622Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '12c34955-480c-4893-943e-097665f8ac32',
+      name: 'Delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+      },
+      identifier: 'Delete the note',
+      scope: 'Notes - Delete the note',
+      scopes: [ 'Notes' ],
+      file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      vc_filepath: '',
+      location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      result: 'passed',
+      duration_in_ms: 7448,
+      started_at: '2026-03-31T06:01:30.474Z',
+      finished_at: '2026-03-31T06:01:37.922Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 94749:0
+2026-03-31T06:01:39.623Z CLI info  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-31T06:01:40.927Z CLI info  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-31T06:01:40.931Z CLI info  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-31T06:01:41.766Z CLI info [testhub:module]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  stopBuild: rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj request={"finished_at":"2026-03-31T06:01:40.926Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-31T06:01:41.768Z CLI info  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T06:01:42.066Z CLI info [TEST REPORTING AND ANALYTICS:module]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  Visit https://automation.browserstack.com/builds/rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj to view build report, insights, and many more debugging information all at one place!
+2026-03-31T06:01:42.072Z CLI info [main]  [ritika_rTsQJ4]  [rk1lwnugudx71z5iilg1bw2bd9cfgtmqjn9gnsaj]  [7579a664-9819-4814-a4de-a6822b3cafa3]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-03-31T06:01:47.641Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:platformVersion":"12.0","appium:automationName":"UiAutomator2","appium:app":"bs://69a85b3f21a32e1aacc8a8f5e44530d4ec9d4f90","appium:autoGrantPermissions":true,"wdioService":"9.26.1"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-31T06:01:47.641Z CLI info     Should start debug utility: undefined
+2026-03-31T06:01:47.641Z CLI info [testhub:module]  [ritika_rTsQJ4]   [11ab1042-df6b-45bf-ba05-e22428d3925c]  Starting testhub from 94881:0
+2026-03-31T06:01:47.642Z CLI info  [ritika_rTsQJ4]   [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-31T06:01:47.642Z CLI info  [ritika_rTsQJ4]   [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-31T06:01:47.814Z CLI info  [ritika_rTsQJ4]   [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-31T06:01:47.814Z CLI info  [ritika_rTsQJ4]   [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-31T06:01:47.815Z CLI info  [ritika_rTsQJ4]   [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-03-31T06:01:48.590Z CLI info [testhub:module]  [ritika_rTsQJ4]   [11ab1042-df6b-45bf-ba05-e22428d3925c]  startBuild: response=yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un
+2026-03-31T06:01:48.591Z CLI info  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T06:01:49.592Z CLI info [sdk:service]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  Driver initialized as primary driver: platformIndex=0
+2026-03-31T06:02:13.616Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'e6e65bb2-333c-4269-83ee-0d30d2dce065',
+    integrations: { browserstack: [Object] }
+  }
+} to 94881:0
+2026-03-31T06:02:13.618Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'e6e65bb2-333c-4269-83ee-0d30d2dce065',
+    name: 'Delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+    },
+    identifier: 'Delete the note',
+    scope: 'Notes - Delete the note',
+    scopes: [ 'Notes' ],
+    file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    vc_filepath: '',
+    location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-31T06:02:13.603Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 94881:0
+2026-03-31T06:02:14.605Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'e6e65bb2-333c-4269-83ee-0d30d2dce065',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: 'ec5ef72a86b3e162ffb39e59304ae44e37a48559',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'IN-GH3FQF9W77.local' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'Android',
+              chromedriverPorts: [ [ 18133, 18143 ] ],
+              automationName: 'UiAutomator2',
+              systemPort: 8203,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: 'R5CT3130P1M',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true,
+              autoGrantPermissions: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'IN-GH3FQF9W77.local' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: 'R5CT3130P1M',
+            chromedriverPorts: [ [ 18133, 18143 ] ],
+            automationName: 'UiAutomator2',
+            systemPort: 8203,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: 'R5CT3130P1M',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            autoGrantPermissions: true,
+            deviceUDID: 'R5CT3130P1M',
+            deviceApiLevel: 31,
+            platformVersion: '12',
+            deviceScreenSize: '1080x2316',
+            deviceScreenDensity: 450,
+            deviceModel: 'SM-S908E',
+            deviceManufacturer: 'samsung',
+            pixelRatio: 2.8125,
+            statBarHeight: 75,
+            viewportRect: { left: 0, top: 75, width: 1080, height: 2031 }
+          },
+          platform: 'Android',
+          platform_version: '12',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'e6e65bb2-333c-4269-83ee-0d30d2dce065',
+      name: 'Delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+      },
+      identifier: 'Delete the note',
+      scope: 'Notes - Delete the note',
+      scopes: [ 'Notes' ],
+      file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      vc_filepath: '',
+      location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-31T06:02:13.603Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 94881:0
+2026-03-31T06:02:14.606Z CLI info  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-31T06:02:21.163Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"e6e65bb2-333c-4269-83ee-0d30d2dce065","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Notes - Delete the note","test_name":"Delete the note","test_code":"async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}","test_location":"test/specs/Real_Android_App/Android_Real_App_Delete.js","test_scope":"Notes - Delete the note","test_scopes":["Notes"],"test_started_at":"2026-03-31T06:02:13.603Z","automate_session_name":"Notes - Delete the note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-31T06:02:21.157Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-31T06:02:21.166Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'e6e65bb2-333c-4269-83ee-0d30d2dce065',
+    name: 'Delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+    },
+    identifier: 'Delete the note',
+    scope: 'Notes - Delete the note',
+    scopes: [ 'Notes' ],
+    file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    vc_filepath: '',
+    location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    result: 'passed',
+    duration_in_ms: 7554,
+    started_at: '2026-03-31T06:02:13.603Z',
+    finished_at: '2026-03-31T06:02:21.157Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 94881:0
+2026-03-31T06:02:22.607Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'e6e65bb2-333c-4269-83ee-0d30d2dce065',
+      name: 'Delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+      },
+      identifier: 'Delete the note',
+      scope: 'Notes - Delete the note',
+      scopes: [ 'Notes' ],
+      file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      vc_filepath: '',
+      location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      result: 'passed',
+      duration_in_ms: 7554,
+      started_at: '2026-03-31T06:02:13.603Z',
+      finished_at: '2026-03-31T06:02:21.157Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 94881:0
+2026-03-31T06:02:22.608Z CLI info  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-31T06:02:24.026Z CLI info  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-31T06:02:24.031Z CLI info  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-31T06:02:24.921Z CLI info [testhub:module]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  stopBuild: yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un request={"finished_at":"2026-03-31T06:02:24.026Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-31T06:02:24.922Z CLI info  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T06:02:25.261Z CLI info [TEST REPORTING AND ANALYTICS:module]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  Visit https://automation.browserstack.com/builds/yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un to view build report, insights, and many more debugging information all at one place!
+2026-03-31T06:02:25.264Z CLI info [main]  [ritika_rTsQJ4]  [yysnmakvz9uaecn8e1rjfiunurdhfwme8hvmr7un]  [11ab1042-df6b-45bf-ba05-e22428d3925c]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-03-31T06:02:56.316Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:platformVersion":"12.0","appium:automationName":"UiAutomator2","appium:app":"bs://69a85b3f21a32e1aacc8a8f5e44530d4ec9d4f90","appium:autoGrantPermissions":true,"wdioService":"9.26.1"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-31T06:02:56.316Z CLI info     Should start debug utility: undefined
+2026-03-31T06:02:56.317Z CLI info [testhub:module]  [ritika_rTsQJ4]   [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  Starting testhub from 95020:0
+2026-03-31T06:02:56.317Z CLI info  [ritika_rTsQJ4]   [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-31T06:02:56.318Z CLI info  [ritika_rTsQJ4]   [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-31T06:02:56.576Z CLI info  [ritika_rTsQJ4]   [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-31T06:02:56.577Z CLI info  [ritika_rTsQJ4]   [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-31T06:02:56.578Z CLI info  [ritika_rTsQJ4]   [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-03-31T06:02:57.350Z CLI info [testhub:module]  [ritika_rTsQJ4]   [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  startBuild: response=htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf
+2026-03-31T06:02:57.352Z CLI info  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T06:02:58.400Z CLI info [sdk:service]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  Driver initialized as primary driver: platformIndex=0
+2026-03-31T06:03:21.996Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '42738336-a7f1-405b-881a-f606b41d4e57',
+    integrations: { browserstack: [Object] }
+  }
+} to 95020:0
+2026-03-31T06:03:21.997Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '42738336-a7f1-405b-881a-f606b41d4e57',
+    name: 'Delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+    },
+    identifier: 'Delete the note',
+    scope: 'Notes - Delete the note',
+    scopes: [ 'Notes' ],
+    file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    vc_filepath: '',
+    location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-31T06:03:21.986Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 95020:0
+2026-03-31T06:03:23.368Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '42738336-a7f1-405b-881a-f606b41d4e57',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: 'ed00752c6eacf99c795f7354d3a33b990f5e62d4',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'IN-GH3FQF9W77.local' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'Android',
+              chromedriverPorts: [ [ 18133, 18143 ] ],
+              automationName: 'UiAutomator2',
+              systemPort: 8203,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: 'R5CT30ZTRCY',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true,
+              autoGrantPermissions: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'IN-GH3FQF9W77.local' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: 'R5CT30ZTRCY',
+            chromedriverPorts: [ [ 18133, 18143 ] ],
+            automationName: 'UiAutomator2',
+            systemPort: 8203,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: 'R5CT30ZTRCY',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            autoGrantPermissions: true,
+            deviceUDID: 'R5CT30ZTRCY',
+            deviceApiLevel: 31,
+            platformVersion: '12',
+            deviceScreenSize: '1080x2316',
+            deviceScreenDensity: 450,
+            deviceModel: 'SM-S908E',
+            deviceManufacturer: 'samsung',
+            pixelRatio: 2.8125,
+            statBarHeight: 75,
+            viewportRect: { left: 0, top: 75, width: 1080, height: 2031 }
+          },
+          platform: 'Android',
+          platform_version: '12',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '42738336-a7f1-405b-881a-f606b41d4e57',
+      name: 'Delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+      },
+      identifier: 'Delete the note',
+      scope: 'Notes - Delete the note',
+      scopes: [ 'Notes' ],
+      file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      vc_filepath: '',
+      location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-31T06:03:21.986Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 95020:0
+2026-03-31T06:03:23.369Z CLI info  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-31T06:03:29.454Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"42738336-a7f1-405b-881a-f606b41d4e57","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Notes - Delete the note","test_name":"Delete the note","test_code":"async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}","test_location":"test/specs/Real_Android_App/Android_Real_App_Delete.js","test_scope":"Notes - Delete the note","test_scopes":["Notes"],"test_started_at":"2026-03-31T06:03:21.986Z","automate_session_name":"Notes - Delete the note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-31T06:03:29.449Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-31T06:03:29.456Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: '42738336-a7f1-405b-881a-f606b41d4e57',
+    name: 'Delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+    },
+    identifier: 'Delete the note',
+    scope: 'Notes - Delete the note',
+    scopes: [ 'Notes' ],
+    file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    vc_filepath: '',
+    location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    result: 'passed',
+    duration_in_ms: 7463,
+    started_at: '2026-03-31T06:03:21.986Z',
+    finished_at: '2026-03-31T06:03:29.449Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 95020:0
+2026-03-31T06:03:31.370Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: '42738336-a7f1-405b-881a-f606b41d4e57',
+      name: 'Delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+      },
+      identifier: 'Delete the note',
+      scope: 'Notes - Delete the note',
+      scopes: [ 'Notes' ],
+      file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      vc_filepath: '',
+      location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      result: 'passed',
+      duration_in_ms: 7463,
+      started_at: '2026-03-31T06:03:21.986Z',
+      finished_at: '2026-03-31T06:03:29.449Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 95020:0
+2026-03-31T06:03:31.371Z CLI info  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-31T06:03:32.446Z CLI info  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-31T06:03:32.450Z CLI info  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-31T06:03:33.489Z CLI info [testhub:module]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  stopBuild: htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf request={"finished_at":"2026-03-31T06:03:32.445Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-31T06:03:33.490Z CLI info  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T06:03:33.781Z CLI info [TEST REPORTING AND ANALYTICS:module]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  Visit https://automation.browserstack.com/builds/htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf to view build report, insights, and many more debugging information all at one place!
+2026-03-31T06:03:33.787Z CLI info [main]  [ritika_rTsQJ4]  [htguejos1pu9vvyndwhaa3loaguc8bqghmaqfdrf]  [0a158fc7-3a8a-48d2-9466-5ccb987794f9]  Received graceful signal termination (SIGTERM), performing cleanup
+2026-03-31T06:12:27.019Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"platformName":"Android","appium:deviceName":"Samsung Galaxy S22 Ultra","appium:platformVersion":"12.0","appium:automationName":"UiAutomator2","appium:app":"bs://69a85b3f21a32e1aacc8a8f5e44530d4ec9d4f90","appium:autoGrantPermissions":true,"wdioService":"9.26.1"}],"isNonBstackA11yWDIO":false,"accessibility":null,"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildTag":[]}
+2026-03-31T06:12:27.019Z CLI info     Should start debug utility: undefined
+2026-03-31T06:12:27.020Z CLI info [testhub:module]  [ritika_rTsQJ4]   [d04a332b-c5fa-4173-815d-f695df66736d]  Starting testhub from 96264:0
+2026-03-31T06:12:27.020Z CLI info  [ritika_rTsQJ4]   [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2026-03-31T06:12:27.021Z CLI info  [ritika_rTsQJ4]   [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2026-03-31T06:12:27.271Z CLI info  [ritika_rTsQJ4]   [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2026-03-31T06:12:27.272Z CLI info  [ritika_rTsQJ4]   [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2026-03-31T06:12:27.272Z CLI info  [ritika_rTsQJ4]   [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2026-03-31T06:12:28.176Z CLI info [testhub:module]  [ritika_rTsQJ4]   [d04a332b-c5fa-4173-815d-f695df66736d]  startBuild: response=dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm
+2026-03-31T06:12:28.178Z CLI info  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T06:12:29.292Z CLI info [sdk:service]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  Driver initialized as primary driver: platformIndex=0
+2026-03-31T06:12:52.966Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'bc26a29e-c43d-4fbf-b251-86291493dad0',
+    integrations: { browserstack: [Object] }
+  }
+} to 96264:0
+2026-03-31T06:12:52.967Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  Added the event {
+  event_type: 'TestRunStarted',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'bc26a29e-c43d-4fbf-b251-86291493dad0',
+    name: 'Delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+    },
+    identifier: 'Delete the note',
+    scope: 'Notes - Delete the note',
+    scopes: [ 'Notes' ],
+    file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    vc_filepath: '',
+    location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    result: 'pending',
+    duration_in_ms: null,
+    started_at: '2026-03-31T06:12:52.954Z',
+    failure: undefined,
+    failure_type: undefined,
+    failure_reason: undefined,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 96264:0
+2026-03-31T06:12:54.190Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'bc26a29e-c43d-4fbf-b251-86291493dad0',
+      integrations: {
+        browserstack: {
+          product: 'automate',
+          session_id: 'e1488ae54dbd9557711ab3145a8b693078498412',
+          capabilities: {
+            platform: 'LINUX',
+            webStorageEnabled: false,
+            takesScreenshot: true,
+            javascriptEnabled: true,
+            databaseEnabled: false,
+            networkConnectionEnabled: true,
+            locationContextEnabled: false,
+            warnings: {},
+            desired: {
+              platformName: 'Android',
+              'bstack:options': { hostName: 'IN-GH3FQF9W77.local' },
+              'goog:chromeOptions': {},
+              newCommandTimeout: 0,
+              deviceName: 'Android',
+              chromedriverPorts: [ [ 18122, 18132 ] ],
+              automationName: 'UiAutomator2',
+              systemPort: 8202,
+              bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+              bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+              skipServerInstallation: true,
+              udid: 'R5CT31AHHQX',
+              appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+              appActivity: 'com.socialnmobile.colornote.activity.Main',
+              nativeWebScreenshot: true,
+              disableSuppressAccessibilityService: true,
+              autoGrantPermissions: true
+            },
+            platformName: 'Android',
+            'bstack:options': { hostName: 'IN-GH3FQF9W77.local' },
+            'goog:chromeOptions': {},
+            newCommandTimeout: 0,
+            deviceName: 'R5CT31AHHQX',
+            chromedriverPorts: [ [ 18122, 18132 ] ],
+            automationName: 'UiAutomator2',
+            systemPort: 8202,
+            bundleID: 'com.socialnmobile.dictapps.notepad.color.note',
+            bundleId: 'com.socialnmobile.dictapps.notepad.color.note',
+            skipServerInstallation: true,
+            udid: 'R5CT31AHHQX',
+            appPackage: 'com.socialnmobile.dictapps.notepad.color.note',
+            appActivity: 'com.socialnmobile.colornote.activity.Main',
+            nativeWebScreenshot: true,
+            disableSuppressAccessibilityService: true,
+            autoGrantPermissions: true,
+            deviceUDID: 'R5CT31AHHQX',
+            deviceApiLevel: 31,
+            platformVersion: '12',
+            deviceScreenSize: '1080x2316',
+            deviceScreenDensity: 450,
+            deviceModel: 'SM-S908E',
+            deviceManufacturer: 'samsung',
+            pixelRatio: 2.8125,
+            statBarHeight: 75,
+            viewportRect: { left: 0, top: 75, width: 1080, height: 2031 }
+          },
+          platform: 'Android',
+          platform_version: '12',
+          browser: undefined,
+          browser_version: undefined
+        }
+      }
+    }
+  },
+  {
+    event_type: 'TestRunStarted',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'bc26a29e-c43d-4fbf-b251-86291493dad0',
+      name: 'Delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+      },
+      identifier: 'Delete the note',
+      scope: 'Notes - Delete the note',
+      scopes: [ 'Notes' ],
+      file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      vc_filepath: '',
+      location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      result: 'pending',
+      duration_in_ms: null,
+      started_at: '2026-03-31T06:12:52.954Z',
+      failure: undefined,
+      failure_type: undefined,
+      failure_reason: undefined,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 96264:0
+2026-03-31T06:12:54.190Z CLI info  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-31T06:13:00.970Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.26.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"bc26a29e-c43d-4fbf-b251-86291493dad0","test_result":"passed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Notes - Delete the note","test_name":"Delete the note","test_code":"async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}","test_location":"test/specs/Real_Android_App/Android_Real_App_Delete.js","test_scope":"Notes - Delete the note","test_scopes":["Notes"],"test_started_at":"2026-03-31T06:12:52.954Z","automate_session_name":"Notes - Delete the note","test_failure":null,"test_failure_reason":null,"test_failure_type":null,"test_ended_at":"2026-03-31T06:13:00.963Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"passed","test_deferred":true,"logs":[]}
+2026-03-31T06:13:00.972Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  Added the event {
+  event_type: 'TestRunFinished',
+  test_run: {
+    type: 'test',
+    framework: 'WebdriverIO-mocha',
+    uuid: 'bc26a29e-c43d-4fbf-b251-86291493dad0',
+    name: 'Delete the note',
+    body: {
+      lang: 'ecmascript',
+      code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+    },
+    identifier: 'Delete the note',
+    scope: 'Notes - Delete the note',
+    scopes: [ 'Notes' ],
+    file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    vc_filepath: '',
+    location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+    result: 'passed',
+    duration_in_ms: 8009,
+    started_at: '2026-03-31T06:12:52.954Z',
+    finished_at: '2026-03-31T06:13:00.963Z',
+    failure: null,
+    failure_type: null,
+    failure_reason: null,
+    retry_of: null,
+    custom_metadata: undefined,
+    tags: [],
+    customRerunParam: { rerun_name: undefined },
+    hooks: [],
+    product_map: {
+      observability: true,
+      accessibility: false,
+      percy: false,
+      automate: true,
+      app_automate: false
+    }
+  },
+  logs: []
+} to 96264:0
+2026-03-31T06:13:02.194Z CLI info [testhub:request-queue-handler]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  Processing batch event [
+  {
+    event_type: 'TestRunFinished',
+    test_run: {
+      type: 'test',
+      framework: 'WebdriverIO-mocha',
+      uuid: 'bc26a29e-c43d-4fbf-b251-86291493dad0',
+      name: 'Delete the note',
+      body: {
+        lang: 'ecmascript',
+        code: 'async()=>{const noteTitle=await import_add_notes.default.noteTitle.getText();await import_add_notes.default.noteTitle.click();await import_add_notes.default.moreButton.click();await import_add_notes.default.deleteIcon.click();await driver.acceptAlert();await import_add_notes.default.navIcon.click();await import_add_notes.default.trashCanIcon.click();const deletedNoteTitle=await import_add_notes.default.noteTitle.getText();await expect(deletedNoteTitle).toEqual(noteTitle)}'
+      },
+      identifier: 'Delete the note',
+      scope: 'Notes - Delete the note',
+      scopes: [ 'Notes' ],
+      file_name: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      vc_filepath: '',
+      location: 'test/specs/Real_Android_App/Android_Real_App_Delete.js',
+      result: 'passed',
+      duration_in_ms: 8009,
+      started_at: '2026-03-31T06:12:52.954Z',
+      finished_at: '2026-03-31T06:13:00.963Z',
+      failure: null,
+      failure_type: null,
+      failure_reason: null,
+      retry_of: null,
+      custom_metadata: undefined,
+      tags: [],
+      customRerunParam: { rerun_name: undefined },
+      hooks: [],
+      product_map: {
+        observability: true,
+        accessibility: false,
+        percy: false,
+        automate: true,
+        app_automate: false
+      }
+    },
+    logs: []
+  }
+] to 96264:0
+2026-03-31T06:13:02.195Z CLI info  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2026-03-31T06:13:03.555Z CLI info  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2026-03-31T06:13:03.561Z CLI info  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2026-03-31T06:13:04.531Z CLI info [testhub:module]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  stopBuild: dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm request={"finished_at":"2026-03-31T06:13:03.555Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2026-03-31T06:13:04.532Z CLI info  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2026-03-31T06:13:05.820Z CLI info [TEST REPORTING AND ANALYTICS:module]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  Visit https://automation.browserstack.com/builds/dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm to view build report, insights, and many more debugging information all at one place!
+2026-03-31T06:13:05.831Z CLI info [main]  [ritika_rTsQJ4]  [dyoro9xsb7axiws4rl7kupmgf1pgn55gfmu618gm]  [d04a332b-c5fa-4173-815d-f695df66736d]  Received graceful signal termination (SIGTERM), performing cleanup
