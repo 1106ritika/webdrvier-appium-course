@@ -4,7 +4,7 @@ const { config } = require('./wdio.shared.conf.cjs');
 config.port= 4723,
 
 config.specs = [
-    path.resolve('./test/specs/Real_iOS_App/iOS_To_Do_List_Screen.js')
+    path.resolve('./test/specs/iOS_Web_Browser/Web_Browser.js')
 ];
 
 config.capabilities = [
@@ -14,7 +14,7 @@ config.capabilities = [
         'appium:deviceName': 'iPhone 16',
         'appium:platformVersion': '18.5',
         'appium:automationName': 'XCUITest',
-        'appium:app': path.join(process.cwd(), 'app/iOS/MVCTodo.app')
+        'appium:app': path.join(process.cwd(), 'app/iOS/wdiodemoapp.app')
     }
 ];
 
@@ -22,6 +22,11 @@ config.capabilities = [
 // Services take over a specific job you don't want to take care of. They enhance
 // your test setup with almost no effort. Unlike plugins, they don't add new
 // commands. Instead, they hook themselves up into the test process.
-config.services = ['appium'];
+config.services = [['appium', {
+    args: {
+        relaxedSecurity: true
+    },
+    logPath: './'
+}]];
 
 exports.config = config;
