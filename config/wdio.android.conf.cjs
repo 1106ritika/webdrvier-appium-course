@@ -4,7 +4,7 @@ const { config } = require('./wdio.shared.conf.cjs');
 config.port = 4723,
 
 config.specs = [
-    path.resolve('./test/specs/Real_Android_App/Web_Browser.js')
+    path.resolve('./test/specs/Real_Android_App/Android_Real_App_Delete.js')
 ];
 
 config.capabilities = [
