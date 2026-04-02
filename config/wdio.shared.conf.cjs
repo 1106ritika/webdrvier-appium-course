@@ -8,7 +8,7 @@ exports.config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    
+
     //
     // ==================
     // Specify Test Files
@@ -24,7 +24,7 @@ exports.config = {
     // The path of the spec files will be resolved relative from the directory of
     // of the config file unless it's absolute.
     //
-    
+
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
@@ -51,7 +51,7 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://saucelabs.com/platform/platform-configurator
     //
-    
+
 
     //
     // ===================
@@ -131,9 +131,9 @@ exports.config = {
         // reportedEnvironmentVars: {
         //     'NODE_VERSION': process.version,
         //     'BROWSER': 'chrome'
-        }
-//    }
-]],
+    }
+        //    }
+    ]],
 
     // Options to be passed to Mocha.
     // See the full list at http://mochajs.org/
@@ -236,10 +236,10 @@ exports.config = {
      * @param {boolean} result.passed    true if test has passed, otherwise false
      * @param {object}  result.retries   information about spec related retries, e.g. `{ attempts: 0, limit: 0 }`
      */
-    afterTest: async function(test, context, { error}) {
+    afterTest: async function (test, context, { error }) {
         if (error) {
-        await driver.takeScreenshot();
-    }
+            await driver.takeScreenshot();
+        }
     },
 
 
@@ -283,7 +283,7 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    onComplete: function() {
+    onComplete: function () {
         const reportError = new Error('Could not generate Allure report')
         const generation = allure(['generate', 'allure-results', '--clean'])
         return new Promise((resolve, reject) => {
@@ -291,24 +291,30 @@ exports.config = {
                 () => reject(reportError),
                 5000)
 
-            generation.on('exit', function(exitCode) {
+            generation.on('exit', function (exitCode) {
                 clearTimeout(generationTimeout)
 
                 if (exitCode !== 0) {
                     return reject(reportError)
                 }
 
-                const open = allure(['open'])
-
-            open.on('exit', function (exitCode) {
-                if (exitCode !== 0) {
-                    return reject(new Error('Could not open Allure report'))
-                }
-                resolve()
-            })
-
                 console.log('Allure report successfully generated')
-                resolve()
+
+                //open report locally only 
+                if (!process.env.CI) {
+                    console.log('Opening Allure report locally...')
+                    const open = allure(['open', 'allure-report'])
+
+                    open.on('exit', function (exitCode) {
+                        if (exitCode !== 0) {
+                            return reject(new Error('Could not open Allure report'))
+                        }
+                        resolve()
+                    })
+                } else {
+                    console.log('CI environment detected. Skipping report open.')
+                    resolve()
+                }
             })
         })
     },
